@@ -3,10 +3,13 @@
 Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts. This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it.
 
 ### Task1:
+1. Set up the environment
+
+### Task2:
 1. Created a list variable for fruits.
 2. Printed a random fruit from the list and assigned it to the word variable.
 
-### Task2:
+### Task3:
 1. Created two functions: ask_for_input() and check_guess().
 ask_for_input():
   - Prompts the user to enter a single letter.
@@ -15,7 +18,7 @@ ask_for_input():
 check_guess():
   - Check if the entered letter is present in the word stored in the word variable.
 
-### Task 3:
+### Task 4:
 1. Created the Hangman class.
 2. Implemented the __init__() method and added all the required attributes and parameters.
 3. When the game starts, word_guessed should be initialized as a list of underscores (_) with the same length as the word. This indicates that no letters have been guessed yet.
@@ -28,4 +31,9 @@ check_guess():
      check_guess():
      - Checks if the entered letter is present in the word stored in the word variable. If so, it updates word_guessed by replacing underscores with the guessed letter (e.g., ['_', 'a', '_', 'a', '_', 'a'] if 'a' is guessed).
      - If the letter is not in the word, it prints an error message and decreases num_lives by 1.
+
+### Task 5:
+1. Consolidated all the above steps into task 5 
+2. Created a method playgame and starts the game
+
      
